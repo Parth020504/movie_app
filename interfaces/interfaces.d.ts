@@ -13,6 +13,7 @@ interface Movie {
   video: boolean;
   vote_average: number;
   vote_count: number;
+  savedDocId?: string; // 🔹 Added for removal from Saved screen
 }
 
 interface TrendingMovie {
